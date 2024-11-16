@@ -41,7 +41,7 @@ export function Todo(item) {
     div.onclick = () => {
        
         item.status = !item.status;
-        title.style.textDecoration = item.status ? "line-through red" : "none";
+        title.style.textDecoration =  "line-through red" 
     };
 
     div.ondblclick = () => {
