@@ -13,6 +13,7 @@ export function submit(e, place) {
         status: false
     }
 
+    Todo(todo)
    
 
     if (val.length === 0) {
